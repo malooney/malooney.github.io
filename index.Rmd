@@ -12,14 +12,16 @@ output: html_document
 <div class="row">
 
 <div class="col-sm-4" align="center">
+
+---
+
 ###**About Me**
 
-![](images/IMG_3185_1.jpg)
+![](images/MLPic_1.png)
 </div>
 
 <div class="col-sm-5" align="center">
-<br>
-<br>
+
 
 ---
 
