@@ -13,6 +13,7 @@ output: html_document
 
 <div class="col-sm-4" align="center">
 ###**About Me**
+
 ![](/images/IMG_3185_1.jpg)
 </div>
 
