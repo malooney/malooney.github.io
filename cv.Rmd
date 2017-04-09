@@ -43,17 +43,17 @@ output: html_document
 
 ###Publications (from a former life)
 * Articles
-    + λ 3-Iodane-mediated arenol dearomatization. Synthesis of five-membered ring-containing analogues of the aquayamycin ABC tricyclic unit and novel access to the apoptosis inducer menadione. N. Lebrasseur, G.J. Fan, M. Oxoby, M.A. Looney, S. Quideau; Tetrahedron 2005, 61 (6), 1551-1562.  [(pdf)](/malooney/pdf/Tetrahedron 2005, 61 (6), 1551-1562.pdf)
+    + λ 3-Iodane-mediated arenol dearomatization. Synthesis of five-membered ring-containing analogues of the aquayamycin ABC tricyclic unit and novel access to the apoptosis inducer menadione. N. Lebrasseur, G.J. Fan, M. Oxoby, M.A. Looney, S. Quideau; Tetrahedron 2005, 61 (6), 1551-1562.  [(pdf)](pdf/Tetrahedron 2005, 61 (6), 1551-1562.pdf)
 
-    + 2-Alkoxyarenol-derived orthoquinols in carbon–oxygen, carbon–nitrogen and carbon–carbon bond-forming reactions. S. Quideau, L. Pouységu, M. Oxoby, M.A. Looney; Tetrahedron 2001, 57 (2), 319-329. [(pdf)](/malooney/pdf/Tetrahedron 2001, 57 (2), 319-329.pdf)
+    + 2-Alkoxyarenol-derived orthoquinols in carbon–oxygen, carbon–nitrogen and carbon–carbon bond-forming reactions. S. Quideau, L. Pouységu, M. Oxoby, M.A. Looney; Tetrahedron 2001, 57 (2), 319-329. [(pdf)](pdf/Tetrahedron 2001, 57 (2), 319-329.pdf)
 
-    + Hypervalent iodine (III)-mediated oxidative acetoxylation of 2-methoxyphenols for regiocontrolled nitrogen benzannulation. S. Quideau, L. Pouységu, A.V. Avellan, D.K. Whelligan, M.A. Looney; Tetrahedron Letters 2001, 42 (42), 7393-7396. [(pdf)](/malooney/pdf/Tetrahedron Letters 2001, 42 (42), 7393-7396.pdf)
+    + Hypervalent iodine (III)-mediated oxidative acetoxylation of 2-methoxyphenols for regiocontrolled nitrogen benzannulation. S. Quideau, L. Pouységu, A.V. Avellan, D.K. Whelligan, M.A. Looney; Tetrahedron Letters 2001, 42 (42), 7393-7396. [(pdf)](pdf/Tetrahedron Letters 2001, 42 (42), 7393-7396.pdf)
 
-    + Oxidized arenol intermediates in intermolecular carbon-carbon bond formation. naphthoid cyclohexa-2, 4-dienones via oxidative nucleophilic substitution. S. Quideau, M.A. Looney, L. Pouységu; Organic Letters 1999, 1 (10), 1651-1654. [(pdf)](/malooney/pdf/Organic Letters 1999, 1 (10), 1651-1654.pdf)
+    + Oxidized arenol intermediates in intermolecular carbon-carbon bond formation. naphthoid cyclohexa-2, 4-dienones via oxidative nucleophilic substitution. S. Quideau, M.A. Looney, L. Pouységu; Organic Letters 1999, 1 (10), 1651-1654. [(pdf)](pdf/Organic Letters 1999, 1 (10), 1651-1654.pdf)
 
-    + Orthoquinone monoketal chemistry. Experimental and density functional theory studies on orthoquinol acetate rearrangements. S. Quideau, M.A. Looney, L. Pouységu, S. Ham, D.M. Birney; Tetrahedron letters 1999, 40 (4), 615-618. [(pdf)](/malooney/pdf/Tetrahedron letters 1999, 40 (4), 615-618.pdf)
+    + Orthoquinone monoketal chemistry. Experimental and density functional theory studies on orthoquinol acetate rearrangements. S. Quideau, M.A. Looney, L. Pouységu, S. Ham, D.M. Birney; Tetrahedron letters 1999, 40 (4), 615-618. [(pdf)](pdf/Tetrahedron letters 1999, 40 (4), 615-618.pdf)
 
-    + Novel preparation of orthoquinol acetates and their application in oxygen heterocyclization reactions. S. Quideau, L. Pouységu, M.A. Looney; The Journal of Organic Chemistry 1998, 63 (25), 9597-9600. [(pdf)](/malooney/pdf/The Journal of Organic Chemistry 1998, 63 (25), 9597-9600.pdf)
+    + Novel preparation of orthoquinol acetates and their application in oxygen heterocyclization reactions. S. Quideau, L. Pouységu, M.A. Looney; The Journal of Organic Chemistry 1998, 63 (25), 9597-9600. [(pdf)](pdf/The Journal of Organic Chemistry 1998, 63 (25), 9597-9600.pdf)
     
 * Posters
     + Quideau, S.; Pouységu, L.; Looney, M. A.; Hendley, R. T. “Orthoquinone Monoketals in Heterocyclization Reactions”. In 216th ACS National Meeting, Boston, MA, USA 1998; Orgn-564.
