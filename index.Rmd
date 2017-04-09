@@ -13,7 +13,7 @@ output: html_document
 
 <div class="col-sm-4" align="center">
 ###**About Me**
-![](malooney.github.io/images/IMG_3185_1.jpg)
+![](/images/IMG_3185_1.jpg)
 </div>
 
 <div class="col-sm-5" align="center">
