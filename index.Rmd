@@ -25,11 +25,11 @@ output: html_document
 
 ---
 
-I am a first year Ph.D. student in Department of Agricultural and Applied Economics at Texas Tech University. <br><br>
+I am a Ph.D. student in the Department of Agricultural and Applied Economics at Texas Tech University. <br><br>
  
-My main research interests are in the areas of microeconomic theory, game theory, and economic history. But I am also keenly interested in monetary theory, and public choice economics. Some rather broad topics that I'm sure I will focus as I move forward in my studies. <br><br>
+My main research interests are in the areas of microeconomic theory, game theory, and economic history, and data science related to economic analysis. <br><br>
   
-I received a Bachelor of Science in Economics from The Pennsylvania State University in 2014.
+I received a Bachelor of Science in Economics from Penn State 2014.
 <br>
 </div>
 </div>
