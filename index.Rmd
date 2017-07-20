@@ -24,8 +24,9 @@ output: html_document
 
 
 ---
+
 <br>
-<br>
+
 I am a Ph.D. student in the Department of Agricultural and Applied Economics at Texas Tech University. <br><br>
  
 My main research interests are in the areas of Microeconomic Theory, Game Theory, Behavioral Economics and Agent Based Modeling.
