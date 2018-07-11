@@ -13,7 +13,7 @@ output: html_document
 
 * Title: to be determined.
 
-* Committee: to be determined.
+* Committee: Benaissa Chidmi, PhD
 
 * Summary: to be determined.
 
@@ -23,15 +23,19 @@ output: html_document
 
 * Texas Tech University, Lubbock, Texas
 
-    + Ph.D. Agricultural and Applied Economics, (expected 2020)
+    + **Ph.D.** Agricultural and Applied Economics, (expected 2020)
 
-        + Primary Fields: to be determined 
+        + Primary Fields: Industrial Organization 
 
-        + Secondary Fields: to be determined
+        + Secondary Fields: Computational Economics
+        
+    + **M.S.** Statistics, (expected 2019)
+        
+    + **M.S.** Agricultural and Applied Economics, (expected 2018)
 
 * The Pennsylvania State University, University Park, Pennsylvania
 
-    + B.S. in Economics, 2014
+    + **B.S.** Economics, 2014
     
 ###Current Publications
 
