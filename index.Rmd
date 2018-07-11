@@ -29,9 +29,15 @@ output: html_document
 
 I am a Ph.D. student in the Department of Agricultural and Applied Economics at Texas Tech University.
  
-My main research interests are in the areas of **Applied Industrial Organization, Computational Economics, and Econometrics**.
+My main research interests are in the areas of:  
+
+  * Applied Industrial Organization, 
+  * Computational Economics,  
+  * Econometrics,
+  * Environmental Economics, 
+  * Natural ResourceEconomics,
+  * Energy Economics.
   
-I received a Bachelor of Science in Economics from Penn State University in 2014.
 
 
 
