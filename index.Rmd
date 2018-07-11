@@ -20,14 +20,14 @@ output: html_document
 ![](images/MLPic_1.png)
 </div>
 
-<div class="col-sm-5" align="center">
+<div class="col-sm-5" align="left">
 
 
 ---
 
 <br>
 
-I am a Ph.D. student in the Department of Agricultural and Applied Economics at Texas Tech University. <br><br>
+I am a Ph.D. student in the Department of Agricultural and Applied Economics at Texas Tech University.
  
 My main research interests are in the areas of Applied Industrial Organization, Computational Economics, and Econometrics.
   

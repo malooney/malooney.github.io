@@ -13,7 +13,7 @@ output: html_document
 
 * Title: to be determined.
 
-* Committee: Benaissa Chidmi, PhD
+* Committee: Benaissa Chidmi (Advisor)
 
 * Summary: to be determined.
 
@@ -25,9 +25,9 @@ output: html_document
 
     + **Ph.D.** Agricultural and Applied Economics, (expected 2020)
 
-        + Primary Fields: Industrial Organization 
+        + Primary Fields: Industrial Organization, Computational Economics 
 
-        + Secondary Fields: Computational Economics
+        + Secondary Fields: Environmental, Natural Resource, and Energy Economics
         
     + **M.S.** Statistics, (expected 2019)
         
