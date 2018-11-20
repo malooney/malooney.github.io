@@ -22,6 +22,8 @@ navbar:
       menu:
         - text: "Institutions and Agricultural Productivity Project"
           href: http://www.myweb.ttu.edu/malooney/AgProd/
+        - text: "Columbus, Ohio Hedonics Project"
+          href: http://www.myweb.ttu.edu/malooney/colHed/
           
 
 output:
