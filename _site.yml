@@ -12,6 +12,11 @@ navbar:
     - text: "Research"
       href: research.html
       
+    - text: "Teaching"
+      menu:
+        - text: "Dynamic Economic Optimization Fall 2019"
+          href: research.html
+      
     - text: "Curriculum Vitae"
       href: cv.html
           

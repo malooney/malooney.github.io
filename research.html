@@ -7,11 +7,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>research.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,9 +21,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -58,9 +58,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,6 +83,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -99,7 +100,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -119,6 +119,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -140,19 +177,73 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -178,6 +269,18 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="research.html">Research</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Teaching
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Dynamic Economic Optimization Fall 2019</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="cv.html">Curriculum Vitae</a>
@@ -217,22 +320,10 @@ $(document).ready(function () {
 
 
 <p><br> <br></p>
-<div id="current-publications" class="section level2">
-<h2>Current Publications</h2>
+<p>##Current Publications * forthcoming</p>
+<p>##Working Papers * forthcoming</p>
+<p>##Publications (from a former life) * λ 3-Iodane-mediated arenol dearomatization. Synthesis of five-membered ring-containing analogues of the aquayamycin ABC tricyclic unit and novel access to the apoptosis inducer menadione. N. Lebrasseur, G.J. Fan, M. Oxoby, M.A. Looney, S. Quideau; Tetrahedron 2005, 61 (6), 1551-1562. <a href="pdf/Tetrahedron%202005,%2061%20(6),%201551-1562.pdf">(pdf)</a></p>
 <ul>
-<li>forthcoming</li>
-</ul>
-</div>
-<div id="working-papers" class="section level2">
-<h2>Working Papers</h2>
-<ul>
-<li>forthcoming</li>
-</ul>
-</div>
-<div id="publications-from-a-former-life" class="section level2">
-<h2>Publications (from a former life)</h2>
-<ul>
-<li><p>λ 3-Iodane-mediated arenol dearomatization. Synthesis of five-membered ring-containing analogues of the aquayamycin ABC tricyclic unit and novel access to the apoptosis inducer menadione. N. Lebrasseur, G.J. Fan, M. Oxoby, M.A. Looney, S. Quideau; Tetrahedron 2005, 61 (6), 1551-1562. <a href="pdf/Tetrahedron%202005,%2061%20(6),%201551-1562.pdf">(pdf)</a></p></li>
 <li><p>2-Alkoxyarenol-derived orthoquinols in carbon–oxygen, carbon–nitrogen and carbon–carbon bond-forming reactions. S. Quideau, L. Pouységu, M. Oxoby, M.A. Looney; Tetrahedron 2001, 57 (2), 319-329. <a href="pdf/Tetrahedron%202001,%2057%20(2),%20319-329.pdf">(pdf)</a></p></li>
 <li><p>Hypervalent iodine (III)-mediated oxidative acetoxylation of 2-methoxyphenols for regiocontrolled nitrogen benzannulation. S. Quideau, L. Pouységu, A.V. Avellan, D.K. Whelligan, M.A. Looney; Tetrahedron Letters 2001, 42 (42), 7393-7396. <a href="pdf/Tetrahedron%20Letters%202001,%2042%20(42),%207393-7396.pdf">(pdf)</a></p></li>
 <li><p>Oxidized arenol intermediates in intermolecular carbon-carbon bond formation. naphthoid cyclohexa-2, 4-dienones via oxidative nucleophilic substitution. S. Quideau, M.A. Looney, L. Pouységu; Organic Letters 1999, 1 (10), 1651-1654. <a href="pdf/Organic%20Letters%201999,%201%20(10),%201651-1654.pdf">(pdf)</a></p></li>
@@ -240,7 +331,6 @@ $(document).ready(function () {
 <li><p>Novel preparation of orthoquinol acetates and their application in oxygen heterocyclization reactions. S. Quideau, L. Pouységu, M.A. Looney; The Journal of Organic Chemistry 1998, 63 (25), 9597-9600. <a href="pdf/The%20Journal%20of%20Organic%20Chemistry%201998,%2063%20(25),%209597-9600.pdf">(pdf)</a> <br> <br> <br></p></li>
 </ul>
 <hr />
-</div>
 
 <center>
 
@@ -277,6 +367,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
