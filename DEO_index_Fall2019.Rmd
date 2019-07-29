@@ -1,0 +1,39 @@
+---
+output: html_document
+---
+<br>
+<br>
+
+# Welcome to **Dynamic Economic Optimization** - Fall 2019  
+  
+<br>
+  
+**Professor of Record:**   Chenggang Wang, PhD  
+
+**Office:**  Ag Sciences 301C
+
+**Phone:**  (806) 742-0261 ext. 238
+
+**E-mail:**  chenggang.wang@ttu.edu
+
+**Meeting Times:** TBD
+
+**Office Hours:**  TDB
+
+<br>
+
+**Teaching Assistant:**  Matthew Aaron Looney, MS
+
+**Office:**  Ag Sciences 205-C
+
+**E-mail:**  matthew.looney@ttu.edu
+
+<br>
+
+<center>
+<a href="DEO_main_Fall2019.html"><font size="4"> Course Website</font>
+
+<br>
+<br>
+<br>
+

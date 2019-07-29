@@ -15,7 +15,7 @@ navbar:
     - text: "Teaching"
       menu:
         - text: "Dynamic Economic Optimization Fall 2019"
-          href: research.html
+          href: DEO_index_Fall2019.html
       
     - text: "Curriculum Vitae"
       href: cv.html

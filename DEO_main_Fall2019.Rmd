@@ -1,0 +1,17 @@
+---
+output: html_document
+---
+<br>
+<br>
+
+<center>
+# **AAEC 6305: Dynamic Economic Optimization** - Fall 2019  
+</center>
+
+<br>
+
+* Syllabus [(pdf)](pdf/Syllabus _AAEC6305_Fall2019.pdf)
+
+
+  
+<br>
