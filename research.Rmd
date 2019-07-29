@@ -4,13 +4,13 @@ output: html_document
 <br>
 <br>
 
-##Current Publications
+## Current Publications
 * forthcoming
 
-##Working Papers
+## Working Papers
 * forthcoming
 
-##Publications (from a former life)
+## Publications (from a former life)
 * λ 3-Iodane-mediated arenol dearomatization. Synthesis of five-membered ring-containing analogues of the aquayamycin ABC tricyclic unit and novel access to the apoptosis inducer menadione. N. Lebrasseur, G.J. Fan, M. Oxoby, M.A. Looney, S. Quideau; Tetrahedron 2005, 61 (6), 1551-1562.  [(pdf)](pdf/Tetrahedron 2005, 61 (6), 1551-1562.pdf)
 
 * 2-Alkoxyarenol-derived orthoquinols in carbon–oxygen, carbon–nitrogen and carbon–carbon bond-forming reactions. S. Quideau, L. Pouységu, M. Oxoby, M.A. Looney; Tetrahedron 2001, 57 (2), 319-329. [(pdf)](pdf/Tetrahedron 2001, 57 (2), 319-329.pdf)

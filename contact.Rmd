@@ -6,7 +6,7 @@ output: html_document
 <center>
 <br>
 
-##Address
+## Address
 Department of Agricultural and Applied Economics <br>
 Texas Tech University <br>
 Agricultural Science Bldg. <br>
@@ -15,7 +15,7 @@ Office 205-C <br>
 Lubbock, TX 79409-2132 <br>
 
 
-##e-mail
+## e-mail
 matthew.looney@ttu.edu
 </center>
 <br>
