@@ -10,8 +10,40 @@ output: html_document
 
 <br>
 
+### Course Objective
+
+The purpose of the course is to study the applications of optimization models in economics.  Our focus of study is to develop the ability to formulate economizing problems as well-defined optimization problems, solve them algebraically or with the aid of optimization software, and interpret the solutions.  Theoretical development of optimization techniques is not emphasized in this course.  
+
+<br>
+
 * Syllabus [(pdf)](pdf/Syllabus _AAEC6305_Fall2019.pdf)
 
+* Getting Started with MATLAB and Python
+  -  Week 1-2: Introduction to MATLAB, Python and Optimization Routines
+  -  Homework 1
+  
+* Introduction to Optimization Models
+  -  Week 3: Optimization models 
+
+* Static Optimization Models for LP and NLP Problems
+  -  Week 4: Linear and Nonlinear Static models
+  
+      <div class="admonition note">
+      <p>
+      - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Cournot_oligopolist_problem.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">logit_nested.ipynb</span></code></a>
+      </p>
+      </div>
+      -  Homework 2
 
   
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
