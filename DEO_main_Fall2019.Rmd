@@ -12,7 +12,13 @@ output: html_document
 
 ### Course Objective
 
-The purpose of the course is to study the applications of optimization models in economics.  Our focus of study is to develop the ability to formulate economizing problems as well-defined optimization problems, solve them algebraically or with the aid of optimization software, and interpret the solutions.  Theoretical development of optimization techniques is not emphasized in this course.  
+The purpose of the course is to study the applications of optimization models in economics.  Our focus of study is to develop the ability to formulate economizing problems as well-defined optimization problems, solve them algebraically or with the aid of optimization software, and interpret the solutions.  Theoretical development of optimization techniques is not emphasized in this course. 
+
+The primary text used in this class is:
+
+Miranda, M. J., & Fackler, P. L. (2002). Applied Computational Economics and Finance (P. L. Fackler, ed.). Cambridge, Mass. : MIT Press.
+
+The majority of the teaching and examples will come directly from this text.
 
 <br>
 
@@ -21,21 +27,21 @@ The purpose of the course is to study the applications of optimization models in
 <br>
 
 * Getting Started with MATLAB and Python
-  -  Week 1-2: Introduction to MATLAB, Python and Optimization Routines
-      -  <font size="2"> Homework 1 </font>
+  *  Week 1-2: Introduction to MATLAB, Python and Optimization Routines
+      *  <font size="2"> Homework 1 </font>
       
 <br>
 
 * Introduction to Optimization Models
-  -  Week 3: Optimization models  
+  *  Week 3: Optimization models  
   
 <br>
 
 * Static Optimization Models for LP and NLP Problems
-  -  Week 4: Linear and Nonlinear Static models
-      - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Cournot_oligopolist_problem.ipynb"><font size="2">Cournot Oligopoly Model</font></a>
-      - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Broydens_Method.ipynb"><font size="2">Broyden's Method</font></a>
-      -  <font size="2"> Homework 2 </font>
+  *  Week 4: Linear and Nonlinear Static models
+      * <a class="reference download internal" download="" href="Optim_Class_Fall2019/Cournot_oligopolist_problem.ipynb"><font size="2">Cournot Oligopoly Model</font></a>
+      <!-- *   <a class="reference download internal" download="" href="Optim_Class_Fall2019/Broydens_Method.ipynb"><font size="2">Broyden's Method</font></a> -->
+      *  <font size="2"> Homework 2 </font>
 
   
 <br>
