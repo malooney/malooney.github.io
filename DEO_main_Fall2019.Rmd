@@ -33,8 +33,8 @@ The purpose of the course is to study the applications of optimization models in
 
 * Static Optimization Models for LP and NLP Problems
   -  Week 4: Linear and Nonlinear Static models
-      - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Cournot_oligopolist_problem.ipynb"><font size="2">Cournot Oligopoly Model</font></a>
-      - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Broydens_Method.ipynb"><font size="2">Broyden's Method</font></a>
+      - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Week_4_Linear_and_Nonlinear_Static_models"><font size="2">Week_4_Linear_and_Nonlinear_Static_models</font></a>
+      <!-- - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Broydens_Method.ipynb"><font size="2">Broyden's Method</font></a> -->
       -  <font size="2"> Homework 2 </font>
 
   
