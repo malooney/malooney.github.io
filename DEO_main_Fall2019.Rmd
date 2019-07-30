@@ -16,24 +16,25 @@ The purpose of the course is to study the applications of optimization models in
 
 <br>
 
-* Syllabus [(pdf)](pdf/Syllabus _AAEC6305_Fall2019.pdf)
+* Syllabus [(pdf)](pdf/Syllabus _AAEC6305_Fall2019.pdf)  
+
+<br>
 
 * Getting Started with MATLAB and Python
   -  Week 1-2: Introduction to MATLAB, Python and Optimization Routines
-  -  Homework 1
-  
+      -  <font size="2"> Homework 1 </font>
+      
+<br>
+
 * Introduction to Optimization Models
-  -  Week 3: Optimization models 
+  -  Week 3: Optimization models  
+  
+<br>
 
 * Static Optimization Models for LP and NLP Problems
   -  Week 4: Linear and Nonlinear Static models
-  
-      <div class="admonition note">
-      <p>
-      - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Cournot_oligopolist_problem.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">logit_nested.ipynb</span></code></a>
-      </p>
-      </div>
-      -  Homework 2
+      - <a class="reference download internal" download="" href="Optim_Class_Fall2019/Cournot_oligopolist_problem.ipynb"><font size="2">Cournot Oligopoly Model</font></a>
+      -  <font size="2"> Homework 2 </font>
 
   
 <br>
