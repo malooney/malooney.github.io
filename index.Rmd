@@ -15,7 +15,7 @@ output: html_document
 
 ---
 
-###**About Me**
+### **About Me**
 
 ![](images/MLPic_1.png)
 </div>
