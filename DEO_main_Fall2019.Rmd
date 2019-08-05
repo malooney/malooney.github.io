@@ -43,7 +43,7 @@ The majority of the teaching and examples will come directly from this text.
       <!-- *   <a class="reference download internal" download="" href="Optim_Class_Fall2019/Broydens_Method.ipynb"><font size="2">Broyden's Method</font></a> -->
       *  <font size="2"> Homework 2 </font>
       
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/malooney/Dynamic_Economic_Optimization_Fall2019.git/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/malooney/Dynamic_Economic_Optimization_Fall2019/master?urlpath=lab)
 
 
   
