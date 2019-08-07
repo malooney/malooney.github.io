@@ -1,0 +1,226 @@
+---
+title: "Getting Started with MATLAB, Python and R"
+subtitle: "AAEC 6305: Dynamic Economic Optimization - Fall 2019"
+author: "Matthew Aaron Looney"
+date: "8/6/2019"
+output:
+  pdf_document: 
+    number_sections: yes
+    toc: yes
+  html_document: default
+classoption: landscape
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage
+
+# Introduction
+
+
+
+---
+
+
+# Help
+
+## Getting Help
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/gettingHelp.pdf}
+\end{figure}
+
+
+## Searching available help documentation
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/searchingAvailableHelpDocumentation.pdf}
+\end{figure}
+
+
+## Using interactively
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/usingInteractively.pdf}
+\end{figure}
+
+---
+
+\newpage
+
+# Basic programming  
+  
+## Loading packages  
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/loadingPackages.pdf}
+\end{figure}
+
+
+## Working directory and OS 
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/workingDirectoryAndOS.pdf}
+\end{figure}
+
+
+## Debugging and profiling code
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/debuggingAndProfilingCode.pdf}
+\end{figure}
+
+
+## Conditionals
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/conditionals.pdf}
+\end{figure}
+
+\newpage
+
+## Loops
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/loops.pdf}
+\end{figure}
+
+---
+
+# File and Data input/output
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/fileIO.pdf}
+\end{figure}
+
+---
+
+
+# Basic Operators
+
+## Getting help on operator syntax
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/gettingHelpOnOperatorSyntax.pdf}
+\end{figure}
+
+\newpage
+
+
+## Arithmetic operators
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/arithmeticOperators.pdf}
+\end{figure}
+
+
+## Relational operators
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/relationalOperators.pdf}
+\end{figure}
+
+
+## Logical operators
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/logicalOperators.pdf}
+\end{figure}
+
+
+## Roots and logarithms
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/roots.pdf}
+\end{figure}
+
+\newpage
+
+## Rounding
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/rounding.pdf}
+\end{figure}
+
+
+## Mathematical constants
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/constants.pdf}
+\end{figure}
+
+
+## Pseudo-random number generator
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/pseudoRandom.pdf}
+\end{figure}
+
+---
+
+# Basic vector construction
+
+
+## Vectors
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/vectors.pdf}
+\end{figure}
+
+\newpage
+
+## Sequences
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/sequences.pdf}
+\end{figure}
+
+## Vector concatenation
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/vConcatenation.pdf}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
