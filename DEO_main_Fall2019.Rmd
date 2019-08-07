@@ -18,34 +18,39 @@ The primary text used in this class is:
 
 Miranda, M. J., & Fackler, P. L. (2002). Applied Computational Economics and Finance (P. L. Fackler, ed.). Cambridge, Mass. : MIT Press.
 
-The majority of the teaching and examples will come directly from this text.
+The majority of the teaching and examples will come directly from this text.  
+  
+Examples will be presented in class using either Matlab or Python. Python examples will be coded in a [Jupyter Noteboook](https://jupyter.org/). We will talk more about how to install Python and use Jupyter Notebooks in the first few weeks of class. We will also discuss how to install and use Matlab. A small amout of R syntax will be introduced in the first few weeks but the final third of this course will focus on Machine Learning techniques. Python has become the defacto language for Machine Learning. As such we will not work with R much beyond a simple introduction. That said, R is a powerful and highly developed statistical programing language that we encourage you to become comfortable with.
+
+A web based executable environment called *binder* will be used to demonstrate examples coded in Python. You can launch this environment by clicking on the following icon:  
+  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/malooney/Dynamic_Economic_Optimization_Fall2019/master?urlpath=lab)
+
+This is a read/execute only environment, you will not be able to edit and save within this environment. If you wish to download the code examples you can click on the links below and run them in your local environment (on your own laptop). In fact there will be times you will need to edit the code in the examples and submit your work as part of a homework or exam. Don't worry if this does not make sense at this time, we will talk more about it soon.
 
 <br>
 
 * Syllabus [(pdf)](pdf/Syllabus _AAEC6305_Fall2019.pdf)  
-
 <br>
-
-* Getting Started with MATLAB and Python
-  *  Week 1-2: Introduction to MATLAB, Python and Optimization Routines
-      *  <font size="2"> Homework 1 </font>
-      
+* Getting Started with MATLAB, Python and R  
 <br>
-
-* Introduction to Optimization Models
+  *  Week 1: Introduction to MATLAB, Python and R.  
+<br>
+  *  Week 2: A General Introduction to Optimization Routines.  
+<br>
+      *  <font size="2"> Homework 1 </font>  
+<br>
+* Introduction to Optimization Models.  
+<br>
   *  Week 3: Optimization models  
-  
 <br>
-
-* Static Optimization Models for LP and NLP Problems
-  *  Week 4: Linear and Nonlinear Static models
-      * <a class="reference download internal" download="" href="Optim_Class_Fall2019/DEMAPP09_Cournot_oligopolist_problem.ipynb"><font size="2">Cournot Oligopoly Model</font></a>
-      *  <font size="2"> Homework 2 </font>
-      
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/malooney/Dynamic_Economic_Optimization_Fall2019/master?urlpath=lab)
-
-
-  
+* Static Optimization Models for LP and NLP Problems  
+<br>
+  *  Week 4: Linear and Nonlinear Static models  
+<br>
+      * <a class="reference download internal" download="" href="Optim_Class_Fall2019/DEMAPP09_Cournot_oligopolist_problem.ipynb"><font size="2">Cournot Oligopoly Model</font></a>  
+<br>
+      *  <font size="2"> Homework 2 </font>  
 <br>
 <br>
 <br>
