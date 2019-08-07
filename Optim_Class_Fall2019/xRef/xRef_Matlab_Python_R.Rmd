@@ -203,24 +203,312 @@ knitr::opts_chunk$set(echo = TRUE)
 \includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/vConcatenation.pdf}
 \end{figure}
 
+## Repeating
 
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/repeating.pdf}
+\end{figure}
 
+## Leave out elements
 
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/leaveOutElements.pdf}
+\end{figure}
 
+## Vector minimum and maximum
 
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/vectorMinMax.pdf}
+\end{figure}
 
+## Vector Multiplication
 
-
-
-
-
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/multiply2Vecs.pdf}
+\end{figure}
 
 ---
 
+# Basic matrix operations
 
+## Matrix construction
 
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/matrixConstruction.pdf}
+\end{figure}
 
+## Matrix concatenation
 
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/matrixConcatenation.pdf}
+\end{figure}
 
+\newpage
+
+## Array construction
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/arrayConstruction.pdf}
+\end{figure}
+
+## Reshape matricies
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/reshapeMatricies.pdf}
+\end{figure}
+
+## Copy (slicing) data
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/copyData.pdf}
+\end{figure}
+
+\newpage
+
+## Indexing and accessing elements inside a matrix
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/indexingMatrix.pdf}
+\end{figure}
+
+## Element assignment
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/elementAssignment.pdf}
+\end{figure}
+
+\newpage
+
+## Transpose and inverse
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/transpose.pdf}
+\end{figure}
+
+## Matrix sum
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/matrixSum.pdf}
+\end{figure}
+
+## Matrix sorting
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/matrixSorting.pdf}
+\end{figure}
+
+\newpage
+
+## Matrix minimum and maximum
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/matrixMinMax.pdf}
+\end{figure}
+
+## Matrix manipulation
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/matrixManipulation.pdf}
+\end{figure}
+
+## Matrix dimension
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/matrixDimension.pdf}
+\end{figure}
+
+\newpage
+
+## Matrix and elementwise multiplication
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/matrixElementMultiplication.pdf}
+\end{figure}
+
+## Conditional indexing
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/conditionalIndexing.pdf}
+\end{figure}
+
+---
+
+# Multi-way array
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/multiwayArray.pdf}
+\end{figure}
+
+---
+
+# Data analysis
+
+## Set theory
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/setTheory.pdf}
+\end{figure}
+
+## Satistics
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/statistics.pdf}
+\end{figure}
+
+\newpage
+
+## Basic interpolation and regression
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/basicInterpolationRegression.pdf}
+\end{figure}
+
+---
+
+# Plotting
+
+## Basic x-y plots
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/basicXYPlots.pdf}
+\end{figure}
+
+\newpage
+
+## Titles and axes
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/titlesAndAxes.pdf}
+\end{figure}
+
+## Log plots
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/logPlots.pdf}
+\end{figure}
+
+## Fill and bar plots
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/fillPlots.pdf}
+\end{figure}
+
+\newpage
+
+## Plotting functions
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/plottingFunctions.pdf}
+\end{figure}
+
+## Histogram plots
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/histogramPlots.pdf}
+\end{figure}
+
+## Polar coordinate plots
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/polarPlots.pdf}
+\end{figure}
+
+\newpage
+
+## Contour plots
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/contourPlots.pdf}
+\end{figure}
+
+\newpage
+
+## Perspective plots
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/perspectivePlots.pdf}
+\end{figure}
+
+## Cloud plots
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/cloudPlots.pdf}
+\end{figure}
+
+\newpage
+
+## Save plot to file
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/sections/savePlot.pdf}
+\end{figure}
+
+---
+
+\newpage
+
+# References
+
+Hankin, Robin. R for Octave users (2001), available from http://cran.r-project.org/doc/contrib/R-and-octave.txt (accessed 2019.01.01); 
+
+Martelli, Alex. Python in a Nutshell (O'Reilly, 2006); 
+
+Oliphant, Travis. Guide to NumPy (Trelgol, 2006), available from http://web.mit.edu/dvp/Public/numpybook.pdf (accessed 2019.01.01); 
+
+Hunter, John. The Matplotlib User's Guide (2019), available from http://matplotlib.sf.net/ (accessed 2019.01.01); 
+
+Langtangen, Hans Petter. Python Scripting for Computational Science (Springer, 2009); 
+
+Ascher et al.: Numeric Python manual (2001), available from http://numpy.scipy.org/numpy.pdf (accessed 2005.06.25); 
+
+Moler, Cleve. Numerical Computing with MATLAB (MathWorks, 2004), available from http://www.mathworks.com/moler/ (accessed 2005.03.10); Eaton, John W. Octave Quick Reference (1996); 
+
+Merrit, Ethan. Demo scripts for gnuplot version 4.0 (2004), available from http://gnuplot.sourceforge.net/demo/ (accessed 2005.07.24); 
+
+Woo, Alex. Gnuplot Quick Reference (2004), available from http://www.gnuplot.info/docs/gpcard.pdf (accessed 2005.07.14); 
+
+Venables & Smith: An Introduction to R (2005), available from http://cran.r-project.org/doc/manuals/R-intro.pdf (accessed 2005.07.25);
+
+Short, Tom. R reference card (2005), available from http://www.rpad.org/Rpad/R-refcard.pdf (accessed 2005.07.24); 
+
+Greenfield, Jedrzejewski & Laidler. Using Python for Interactive Data Analysis (2005), pp.125-134, available from http://stsdas.stsci.edu/perry/pydatatut.pdf (accessed 2005.07.29); 
+
+Brisson, Eric. Using IDL to Manipulate and Visualize Scientific Data, available from http://scv.bu.edu/documentation/tutorials/IDL/ (accessed 2005.07.31); 
+
+Wester, Michael (ed). Computer Algebra Systems: A Practical Guide (1999), available from http://www.math.unm.edu/~wester/cas_review.html (accessed 2005.08.14).
 
 
