@@ -19,10 +19,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
+This document is intended to give you a quick reference guide on how to perform simple tasks in MatLab, Python and R. The document is by no means a complete list of commands. Your best friend when trying to learn the syntax of a new programming language is to use the built-in *Help* guides contained within the languge documentation (see Section 1 of this document). The second best place to find information about syntax is from Google. Chances are if you are trying to perform a specific task and are having trouble, Google the problem and you are very likely to find a solution developed by someone else trying to do the same thing. This is also a very good way to learn more complex coding techniques. Learn by seeing, doing and making mistakes!
 
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
 
+![](/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/code_quality_2x.png)
+
+\bigskip
+\bigskip
 ---
 
+\newpage
 
 # Help
 
@@ -483,7 +494,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # References
 
+## Computer Algebra Systems
+
+Wester, Michael (ed). Computer Algebra Systems: A Practical Guide (1999), available from http://www.math.unm.edu/~wester/cas_review.html (accessed 2019.01.01).
+
+## MatLab
+
+Moler, Cleve. Numerical Computing with MATLAB (MathWorks, 2004), available from http://www.mathworks.com/moler/ (accessed 2019.01.01); 
+
+## Octave
+
 Hankin, Robin. R for Octave users (2001), available from http://cran.r-project.org/doc/contrib/R-and-octave.txt (accessed 2019.01.01); 
+
+Eaton, John W. Octave Quick Reference (2007); 
+
+## Python
 
 Martelli, Alex. Python in a Nutshell (O'Reilly, 2006); 
 
@@ -493,22 +518,23 @@ Hunter, John. The Matplotlib User's Guide (2019), available from http://matplotl
 
 Langtangen, Hans Petter. Python Scripting for Computational Science (Springer, 2009); 
 
-Ascher et al.: Numeric Python manual (2001), available from http://numpy.scipy.org/numpy.pdf (accessed 2005.06.25); 
+Ascher et al.: Numeric Python manual (2019), available from https://docs.scipy.org/doc/ (accessed 2019.01.01); 
 
-Moler, Cleve. Numerical Computing with MATLAB (MathWorks, 2004), available from http://www.mathworks.com/moler/ (accessed 2005.03.10); Eaton, John W. Octave Quick Reference (1996); 
+Greenfield, Jedrzejewski & Laidler. Using Python for Interactive Data Analysis (2007), pp.125-134, available from https://ssb.stsci.edu/perry/pydatatut.pdf (accessed 2019.01.01); 
 
-Merrit, Ethan. Demo scripts for gnuplot version 4.0 (2004), available from http://gnuplot.sourceforge.net/demo/ (accessed 2005.07.24); 
+## R
 
-Woo, Alex. Gnuplot Quick Reference (2004), available from http://www.gnuplot.info/docs/gpcard.pdf (accessed 2005.07.14); 
+Venables & Smith: An Introduction to R (2019), available from https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf (accessed 2019.01.01);
 
-Venables & Smith: An Introduction to R (2005), available from http://cran.r-project.org/doc/manuals/R-intro.pdf (accessed 2005.07.25);
+Short, Tom. R reference card (2004), available from https://cran.r-project.org/doc/contrib/Short-refcard.pdf (accessed 2019.01.01); 
 
-Short, Tom. R reference card (2005), available from http://www.rpad.org/Rpad/R-refcard.pdf (accessed 2005.07.24); 
+## Miscellaneous
 
-Greenfield, Jedrzejewski & Laidler. Using Python for Interactive Data Analysis (2005), pp.125-134, available from http://stsdas.stsci.edu/perry/pydatatut.pdf (accessed 2005.07.29); 
+Merrit, Ethan. Demos for gnuplot version 5.2 (2018), available from http://gnuplot.sourceforge.net/demo/ (accessed 2019.01.01); 
 
-Brisson, Eric. Using IDL to Manipulate and Visualize Scientific Data, available from http://scv.bu.edu/documentation/tutorials/IDL/ (accessed 2005.07.31); 
+Woo, Alex. Gnuplot Quick Reference (2004), available from http://www.gnuplot.info/docs_4.0/gpcard.pdf (accessed 2019.01.01); 
 
-Wester, Michael (ed). Computer Algebra Systems: A Practical Guide (1999), available from http://www.math.unm.edu/~wester/cas_review.html (accessed 2005.08.14).
+Brisson, Eric. Using IDL to Manipulate and Visualize Scientific Data, available from http://scv.bu.edu/documentation/tutorials/IDL/ (accessed 2019.01.01); 
+
 
 
