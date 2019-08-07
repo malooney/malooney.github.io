@@ -40,7 +40,7 @@ This is a read/execute only environment, you will not be able to edit and save w
 <br>
   *  Week 1: Introduction to MATLAB, Python and R.  
 <br>
-      * Syntax Cross-Refernece Sheet [(pdf)](xRef/xRef_Matlab_Python_R.pdf)  
+      * Syntax Cross-Refernece Sheet [(pdf)](Optim_Class_Fall2019/xRef/xRef_Matlab_Python_R.pdf)  
 <br>
   *  Week 2: A General Introduction to Optimization Routines.  
 <br>
