@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-This document is intended to give you a quick reference guide on how to perform simple tasks in MatLab, Python and R. The document is by no means a complete list of commands. Your best friend when trying to learn the syntax of a new programming language is to use the built-in *Help* guides contained within the languge documentation (see Section 1 of this document). The second best place to find information about syntax is from Google. Chances are if you are trying to perform a specific task and are having trouble, Google the problem and you are very likely to find a solution developed by someone else trying to do the same thing. This is also a very good way to learn more complex coding techniques. Learn by seeing, doing and making mistakes!
+This document is intended to give you a quick reference guide on how to perform simple tasks in MatLab, Python and R. The document is by no means a complete list of commands. Your best friend when trying to learn the syntax of a new programming language is to use the built-in *Help* guides contained within the languge documentation (see Section 2 of this document). The second best place to find information about syntax is from Google. Chances are if you are trying to perform a specific task and are having trouble, Google the problem and you are very likely to find a solution developed by someone else trying to do the same thing. This is also a very good way to learn more complex coding techniques. Learn by seeing, doing and making mistakes!
 
 \bigskip
 \bigskip
@@ -31,6 +31,7 @@ This document is intended to give you a quick reference guide on how to perform 
 
 \bigskip
 \bigskip
+
 ---
 
 \newpage
