@@ -25,7 +25,6 @@ knitr::opts_chunk$set(echo = TRUE)
 \includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/1_gettingHelp.pdf}
 \end{figure}
 
-***
 
 ## Searching available help documentation
 
@@ -34,11 +33,29 @@ knitr::opts_chunk$set(echo = TRUE)
 \includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/2_searchingAvailableHelpDocumentation.pdf}
 \end{figure}
 
----
 
 ## Using interactively
 
 \begin{figure}[h!]
 \centering
 \includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/3_usingInteractively.pdf}
+\end{figure}
+
+---
+
+# Basic Operators
+
+## Getting help on operator syntax
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/4_gettingHelpOnOperatorSyntax.pdf}
+\end{figure}
+
+
+## Arithmetic operators
+
+\begin{figure}[h!]
+\centering
+\includegraphics []{/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/4_gettingHelpOnOperatorSyntax.pdf}
 \end{figure}
