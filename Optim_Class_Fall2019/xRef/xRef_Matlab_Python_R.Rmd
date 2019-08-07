@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-This document is intended to give you a quick reference guide on how to perform simple tasks in MatLab, Python and R. The document is by no means a complete list of commands. Your best friend when trying to learn the syntax of a new programming language is to use the built-in *Help* guides contained within the languge documentation (see Section 2 of this document). The second best place to find information about syntax is from Google. Chances are if you are trying to perform a specific task and are having trouble, Google the problem and you are very likely to find a solution developed by someone else trying to do the same thing. This is also a very good way to learn more complex coding techniques. Learn by seeing, doing and making mistakes!
+This document is intended to give you a quick reference guide on how to perform simple tasks in MatLab, Python and R. The document is by no means a complete list of commands. Your best friend when trying to learn the syntax of a new programming language is to use the built-in *Help* guides contained within the languge documentation (see Section 2 of this document). The second best place to find information about syntax is from Google. Chances are if you are trying to perform a specific task and are having trouble, search the problem on Google and you are very likely to find a solution developed by someone else trying to do the same thing. This is also a very good way to learn more complex coding techniques. Learn by seeing, doing and making mistakes!
 
 \bigskip
 \bigskip
@@ -497,45 +497,47 @@ This document is intended to give you a quick reference guide on how to perform 
 
 ## Computer Algebra Systems
 
-Wester, Michael (ed). Computer Algebra Systems: A Practical Guide (1999), available from http://www.math.unm.edu/~wester/cas_review.html (accessed 2019.01.01).
+Wester, Michael (ed). Computer Algebra Systems: A Practical Guide (1999), available from http://www.math.unm.edu/~wester/cas_review.html (accessed 2019.01.01)
 
 ## MatLab
 
-Moler, Cleve. Numerical Computing with MATLAB (MathWorks, 2004), available from http://www.mathworks.com/moler/ (accessed 2019.01.01); 
+Moler, Cleve. Numerical Computing with MATLAB (MathWorks, 2004), available from http://www.mathworks.com/moler/ (accessed 2019.01.01)
 
 ## Octave
 
-Hankin, Robin. R for Octave users (2001), available from http://cran.r-project.org/doc/contrib/R-and-octave.txt (accessed 2019.01.01); 
+Hankin, Robin. R for Octave users (2001), available from http://cran.r-project.org/doc/contrib/R-and-octave.txt (accessed 2019.01.01) 
 
-Eaton, John W. Octave Quick Reference (2007); 
+Eaton, John W. Octave Quick Reference (2007)
 
 ## Python
 
-Martelli, Alex. Python in a Nutshell (O'Reilly, 2006); 
+Martelli, Alex. Python in a Nutshell (O'Reilly, 2006)
 
-Oliphant, Travis. Guide to NumPy (Trelgol, 2006), available from http://web.mit.edu/dvp/Public/numpybook.pdf (accessed 2019.01.01); 
+Oliphant, Travis. Guide to NumPy (Trelgol, 2006), available from http://web.mit.edu/dvp/Public/numpybook.pdf (accessed 2019.01.01)
 
-Hunter, John. The Matplotlib User's Guide (2019), available from http://matplotlib.sf.net/ (accessed 2019.01.01); 
+Hunter, John. The Matplotlib User's Guide (2019), available from http://matplotlib.sf.net/ (accessed 2019.01.01)
 
-Langtangen, Hans Petter. Python Scripting for Computational Science (Springer, 2009); 
+Langtangen, Hans Petter. Python Scripting for Computational Science (Springer, 2009)
 
-Ascher et al.: Numeric Python manual (2019), available from https://docs.scipy.org/doc/ (accessed 2019.01.01); 
+Ascher et al.: Numeric Python manual (2019), available from https://docs.scipy.org/doc/ (accessed 2019.01.01)
 
-Greenfield, Jedrzejewski & Laidler. Using Python for Interactive Data Analysis (2007), pp.125-134, available from https://ssb.stsci.edu/perry/pydatatut.pdf (accessed 2019.01.01); 
+Greenfield, Jedrzejewski & Laidler. Using Python for Interactive Data Analysis (2007), pp.125-134, available from https://ssb.stsci.edu/perry/pydatatut.pdf (accessed 2019.01.01)
 
 ## R
 
-Venables & Smith: An Introduction to R (2019), available from https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf (accessed 2019.01.01);
+Venables & Smith: An Introduction to R (2019), available from https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf (accessed 2019.01.01)
 
-Short, Tom. R reference card (2004), available from https://cran.r-project.org/doc/contrib/Short-refcard.pdf (accessed 2019.01.01); 
+Short, Tom. R reference card (2004), available from https://cran.r-project.org/doc/contrib/Short-refcard.pdf (accessed 2019.01.01) 
 
 ## Miscellaneous
 
-Merrit, Ethan. Demos for gnuplot version 5.2 (2018), available from http://gnuplot.sourceforge.net/demo/ (accessed 2019.01.01); 
+Merrit, Ethan. Demos for gnuplot version 5.2 (2018), available from http://gnuplot.sourceforge.net/demo/ (accessed 2019.01.01)
 
-Woo, Alex. Gnuplot Quick Reference (2004), available from http://www.gnuplot.info/docs_4.0/gpcard.pdf (accessed 2019.01.01); 
+Gundersen, Vidar B.,  Thesaurus of Mathematical Languages, or MATLAB synonymous commands in Python/NumPy, (2007)
 
-Brisson, Eric. Using IDL to Manipulate and Visualize Scientific Data, available from http://scv.bu.edu/documentation/tutorials/IDL/ (accessed 2019.01.01); 
+Woo, Alex. Gnuplot Quick Reference (2004), available from http://www.gnuplot.info/docs_4.0/gpcard.pdf (accessed 2019.01.01)
+
+Brisson, Eric. Using IDL to Manipulate and Visualize Scientific Data, available from http://scv.bu.edu/documentation/tutorials/IDL/ (accessed 2019.01.01)
 
 
 
