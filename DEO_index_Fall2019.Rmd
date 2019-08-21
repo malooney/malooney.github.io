@@ -7,6 +7,21 @@ output: html_document
 # Welcome to **Dynamic Economic Optimization** - Fall 2019  
   
 <br>
+
+### Course Objective
+  
+The purpose of the course is to study the applications of optimization models in agricultural and natural resource economics. Our focus is to develop the ability to formulate economizing problems mathematically, and learn computer algorithms to solve various types of optimization problems in agricultural production and natural resource management. Students will learn computer algorithms solving linear and nonlinear programming models, deterministic and stochastic dynamic models, and machine learning models.
+
+<br>
+
+
+### Course Text
+
+The primary text used in this class is:
+
+Miranda, M. J., & Fackler, P. L. (2002). Applied Computational Economics and Finance (P. L. Fackler, ed.). Cambridge, Mass. : MIT Press.
+
+<br>
   
 **Professor of Record:**   Chenggang Wang, PhD  
 
@@ -16,22 +31,24 @@ output: html_document
 
 **E-mail:**  chenggang.wang@ttu.edu
 
-**Meeting Times:** TBD
+**Meeting Times:** MW 1:00 – 2:20 pm @ AGRI 208
 
-**Office Hours:**  TDB
+**Office Hours:**  MW 2:30 – 3:30 pm or any other time with an appointment
 
 <br>
 
 **Teaching Assistant:**  Matthew Aaron Looney, MS
 
-**Office:**  Ag Sciences 205-C
+**Office:**  Ag Sciences 205C
 
 **E-mail:**  matthew.looney@ttu.edu
+
+**Office Hours:**  MW 2:30 – 3:30 pm or any other time with an appointment
 
 <br>
 
 <center>
-<a href="DEO_main_Fall2019.html"><font size="4"> Course Website</font>
+<a href="DEO_main_Fall2019.html"><font size="4"> Course Laboratory Website</font>
 
 <br>
 <br>
