@@ -27,7 +27,10 @@ This document is intended to give you a quick reference guide on how to perform 
 \bigskip
 \bigskip
 
-![](/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/code_quality_2x.png)
+\centering
+
+![](/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/xRef/code_quality_2x.png ){ width=75% }
+
 
 \bigskip
 \bigskip
