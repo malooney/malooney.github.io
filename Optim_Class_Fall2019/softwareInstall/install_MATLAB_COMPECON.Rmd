@@ -7,7 +7,9 @@ output: pdf_document
 
 # Software and Computer
 
-In this course every student needs to have a laptop installed with a computing software environment called MATLAB. Bring your laptop to each lecture. This will allow you to work on programming drills in the class. Following are the steps for you to obtain MATLAB for your laptop.
+In this course every student needs to have a laptop installed with a computing software environment called MATLAB. You will also need the add-on package called CompEcon Toolbox. Bring your laptop to each lecture. This will allow you to work on programming drills in the class. The following steps will explain how to install MATLAB on your laptop and how to obtain and install the CompEcon Toolbox.
+
+---
 
 ### Installing MATLAB R2019a on Mac and Windows
 
@@ -24,7 +26,7 @@ In this course every student needs to have a laptop installed with a computing s
   
   6.  If prompted, select the appropriate operating system and the download will start.
   
-  7.  Run the installer from the downloaded file and follow the instructions to install MATLAB. This might take some time so plan accordingly to allow the install/download to complete without interuption.
+  7.  Run the installer from the downloaded file and follow the instructions to install MATLAB. This might take some time so plan accordingly to allow the install/download to complete without interruption.
   
   
 ### Installing CompEcon Toolbox on Mac and Windows
@@ -35,7 +37,7 @@ In this course every student needs to have a laptop installed with a computing s
   
   2.  I suggest you install the 64-bit version of the software.
   
-  3.  After the file downloads, locate the file on your computer. It will be called compecon2011_64_20110718.zip (if you downloaded the 64-bit verion).
+  3.  After the file downloads, locate the file on your computer. It will be called compecon2011_64_20110718.zip (if you downloaded the 64-bit version).
   
   4.  When you installed MATLAB a directory was created in your "Documents" folder called "MATLAB". I suggest you copy the downloaded file called "compecon2011_64_20110718.zip" into your MATLAB folder.
   
@@ -66,7 +68,7 @@ For MATLAB to find the files (CompEcon Toolbox and script files) on your compute
   
   7.  Click "Save" and then "Close".
 
-  8. The path is now set. Anything saved inside your MATLAB folder will now be visable to MATLAB.
+  8. The path is now set. Anything saved inside your MATLAB folder will now be visible to MATLAB.
   
   9.  If you created a folder called "Optim_Class_Fall_2019" in your MATLAB folder then simply copying files into this folder will automatically add the files to the MATLAB path. EASY!
   
@@ -81,11 +83,11 @@ We need to install the "command line tools".
   
   1.  Open the "Terminal" application. This is inside the "Utilities" folder inside the main "Applications" folder on your hard drive.
   
-  2.  At the command promt, type "Xcode-select --install".
+  2.  At the command prompt, type "Xcode-select --install".
   
   3.  Once the install is complete open the MATLAB application.
   
-  4.  In the "Command Window" type, "Mexall". 
+  4.  In the "Command Window" type, "mexall". 
   
   5.  The CompEcon Toolbox code will start to compile. Wait until it is done.
   
@@ -107,15 +109,55 @@ We need to download a Windows compatible compiler. The easiest compiler to use i
   
 ![](/Users/malooney/Documents/malooney.github.io/Optim_Class_Fall2019/softwareInstall/Mingw.png){ width=75% }
   
-  6.  Click on "MATLAB Support for MinGW-w64 C/C++ Compiler" and click the "Install" button.
+  6.  Click on "MATLAB Support for MinGW-w64 C/C++ Compiler" and click the "Install" button. Follow the directions for installing the compiler.
   
-  7.  Once the install is complete 
+  7.  Once the install is complete, close the "Add-On Explorer".
+  
+  8.  In the "Command Window" of MATLLAB, type, "mexall". 
+  
+  9.  The CompEcon Toolbox code will start to compile. Wait until it is done.
+  
+  10.  Your code is now compiled...EASY!!
   
   
   
+### Renaming the "Psi" function in CompEcon Toolbox
+
+We are almost done.
+
+There is one small issue with the CompEcon Toolbox. MATLAB has a built-in function called "Psi.c". However, CompEcon Toolbox also has a function called "Psi.c". This throws a warning message when you start MATLAB after installing and compiling CompEcon Toolbox.. The easy work around is to rename the CompEcon Toolbox function "Psi.c" to something else.
+
+None of the scripts we will use in this class require use of the Psi.c function but you need to keep in mind that we are renaming the "Psi.c" function so if in the future you use a script that requires use of the "Psi.c" function you will need to rename that inside the script. This sounds convoluted and complicated but it is not. It is just hard to explain in words. The action is very simple.
+
+  1.  Open the MATLAB folder inside your Documents folder. 
   
+  2.  Open the CompEcon folder.
   
+  3.  Open the CEtools folder and scroll down until you find the file named "Psi.c".
   
+  4.  I suggest you rename all "Psi.x" files to "Psi_cet.x", where "x" represents the file extension and "cet" stands for compecon toolbox. For example, the file called "Psi.c" will be renamed to "Psi_cet.c". Depending on the version of CompEcon Toolbox you will have about six files to rename. Rename them all.
+  
+  5.  Once you have done this restart MATLAB. You should not see any warning notices about the Psi function. If you do you have missed renaming a file.
+  
+
+---
+
+### You should now have a fully functioning version of MATLAB installed.
+
+### You should have the CompEcon Toolbox installed.
+
+### Your Path should be set to the MATLAB folder inside your Documents folder.
+
+### You should have all code compiled.
+
+### You should not see any warning notices when starting MATLAB.
+
+\bigskip
+\bigskip
+
+\centering
+
+# If you had trouble with any of these steps please get in touch with me and I can help guide you through the process.
   
   
   
