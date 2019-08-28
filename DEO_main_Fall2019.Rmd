@@ -41,6 +41,9 @@ This is a read/execute only environment, you will not be able to edit and save w
    *  Week 1: Overview of optimization models and MATLAB  
       * MATLAB and CompEcon Toolbox installation instructions [(pdf)](Optim_Class_Fall2019/softwareInstall/install_MATLAB_COMPECON.pdf)  
       * Syntax Cross-Refernece Sheet [(pdf)](Optim_Class_Fall2019/xRef/xRef_Matlab_Python_R.pdf)  
+      * Getting Started With Matlab, Part1 [(.mlx)](Optim_Class_Fall2019/GettingStartedWithMatlab_Part1.mlx)
+      * dataMatrix_10000 [(.csv)](Optim_Class_Fall2019/dataMatrix_10000.csv)
+      * ols [(.m)](Optim_Class_Fall2019/ols.m)
 <br>
 * Static Optimization Models for LP and NLP Problems
 <br>
