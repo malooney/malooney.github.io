@@ -52,6 +52,7 @@ This is a read/execute only environment, you will not be able to edit and save w
       * Getting Started With Matlab, Part2 [(.mlx)](Optim_Class_Fall2019/GettingStartedWithMatlab_Part2.mlx)
       * objective_Fn_1 [(.m)](Optim_Class_Fall2019/objective_Fn_1.m)
       * Linear Static Models [(.mlx)](Optim_Class_Fall2019/LinearStaticModels.mlx)
+      * giap [(.m)](Optim_Class_Fall2019/giap.m)
       * nonLinear Static Models [(.mlx)](Optim_Class_Fall2019/nonLinearStaticModels.mlx)
       *  Homework_1b  
 <br>
