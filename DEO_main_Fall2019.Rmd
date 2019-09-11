@@ -48,7 +48,11 @@ This is a read/execute only environment, you will not be able to edit and save w
 <br>
 * Static Optimization Models for LP and NLP Problems
 <br>
-   *  Week 2: Linear and nonlinear static models  
+   *  Week 2: Linear and nonlinear static models 
+      * Getting Started With Matlab, Part2 [(.mlx)](Optim_Class_Fall2019/GettingStartedWithMatlab_Part2.mlx)
+      * objective_Fn_1 [(.m)](Optim_Class_Fall2019/objective_Fn_1.m)
+      * Linear Static Models [(.mlx)](Optim_Class_Fall2019/LinearStaticModels.mlx)
+      * nonLinear Static Models [(.mlx)](Optim_Class_Fall2019/nonLinearStaticModels.mlx)
       *  Homework 1b  
 <br>
 * Deterministic Dynamic Models  
@@ -56,9 +60,7 @@ This is a read/execute only environment, you will not be able to edit and save w
 <br>
 * Stochastic Dynamic Models  
     *  Week 4: Water management and bio-economic model  
-      <!-- * <a class="reference download internal" download="" href="Optim_Class_Fall2019/DEMAPP09_Cournot_oligopolist_problem.ipynb"><font size="2">Cournot Oligopoly Model (Python)</font></a>   -->
-      <!-- * <a class="reference download internal" download="" href="Optim_Class_Fall2019/DEMAPP09_Cournot_oligopolist_problem.m"><font size="2">Cournot Oligopoly Model (Matlab)</font></a>  -->
-       *  <font size="2"> Homework 2 </font>  
+         *   Homework 2  
 <br>
 <br>
 <br>
