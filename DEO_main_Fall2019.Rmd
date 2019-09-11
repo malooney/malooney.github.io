@@ -53,7 +53,7 @@ This is a read/execute only environment, you will not be able to edit and save w
       * objective_Fn_1 [(.m)](Optim_Class_Fall2019/objective_Fn_1.m)
       * Linear Static Models [(.mlx)](Optim_Class_Fall2019/LinearStaticModels.mlx)
       * nonLinear Static Models [(.mlx)](Optim_Class_Fall2019/nonLinearStaticModels.mlx)
-      *  Homework 1b  
+      *  Homework_1b  
 <br>
 * Deterministic Dynamic Models  
    *  Week 3: Nonrenewable resource extraction and asset replacement  
