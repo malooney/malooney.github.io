@@ -16,6 +16,8 @@ navbar:
       menu:
         - text: "Dynamic Economic Optimization Fall 2019"
           href: DEO_index_Fall2019.html
+        - text: "AECO 4309"
+          href: AECO4309.html
       
     - text: "Curriculum Vitae"
       href: cv.html
