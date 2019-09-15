@@ -1,0 +1,31 @@
+---
+  output: html_document
+---
+  <br>
+  <br>
+  
+# Temporary site for **Microeconomics II - 6301** - Fall 2019  
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+*  Homework_1 Population Growth Example  [(.xlsx)](Exp_Pop_Growth.xlsx)  
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
