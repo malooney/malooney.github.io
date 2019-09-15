@@ -19,7 +19,7 @@ navbar:
         - text: "AECO 4309"
           href: AECO4309.html
         - text: "Microeconomics II - 6301"
-          href: Micro_II_6301.html
+          href: micro_II_6301.html
       
     - text: "Curriculum Vitae"
       href: cv.html
