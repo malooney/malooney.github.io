@@ -4,14 +4,16 @@
   <br>
   <br>
   
-# Temporary site for **AECO 4309** - Fall 2019  
+# **AAEC 4309** - Fall 2019  
 
   <br>
   <br>
   <br>
   <br>
 
-*  Homework_1 Population Growth Example  [(.xlsx)](Exp_Pop_Growth.xlsx)  
+*  Homework 1  [(.pdf)](HW1_AECO4309.pdf)  
+
+*  Homework 1 - Population & Food Growth Example  [(.xlsx)](Exp_Pop_Growth.xlsx)  
   
   <br>
   <br>
