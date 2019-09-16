@@ -13,6 +13,8 @@
 
 *  Meat Demand Argentina  [(.xls)](Meat Demand Argentina.xls)  
 
+*  WARP Code Template  [(.zip)](WARP_Project.zip) 
+
 *  Revealed preference theory: An algorithmic outlook  [(.pdf)](EJOR2018paper.pdf)  
   
   <br>
