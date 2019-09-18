@@ -57,7 +57,8 @@ This is a read/execute only environment, you will not be able to edit and save w
       *  Homework_1b [(.mlx)](Optim_Class_Fall2019/Homework_1b.mlx)  
 <br>
 * Deterministic Dynamic Models  
-   *  Week 3: Nonrenewable resource extraction and asset replacement  
+   *  Week 3: Nonrenewable resource extraction (Mine management) and Livestock feeding model
+      *  Deterministic Dynamic Models [(.mlx)](Optim_Class_Fall2019/Deterministic_Dynamic_Models.mlx)  
 <br>
 * Stochastic Dynamic Models  
     *  Week 4: Water management and bio-economic model  
