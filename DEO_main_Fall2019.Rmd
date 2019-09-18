@@ -59,6 +59,7 @@ This is a read/execute only environment, you will not be able to edit and save w
 * Deterministic Dynamic Models  
    *  Week 3: Nonrenewable resource extraction (Mine management) and Livestock feeding model
       *  Deterministic Dynamic Models [(.mlx)](Optim_Class_Fall2019/Deterministic_Dynamic_Models.mlx)  
+      *   Mine Management Extension [(.m)](Optim_Class_Fall2019/mineExt.m)  
 <br>
 * Stochastic Dynamic Models  
     *  Week 4: Water management and bio-economic model  
