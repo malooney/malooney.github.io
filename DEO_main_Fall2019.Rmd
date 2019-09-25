@@ -63,7 +63,7 @@ This is a read/execute only environment, you will not be able to edit and save w
 <br>
 * Stochastic Dynamic Models  
     *  Week 4: Water management
-         *   Stochastic Dynamic Models [(.mlx)](Stochastic_Dynamic_Models.mlx)
+         *   Stochastic Dynamic Models [(.mlx)](Optim_Class_Fall2019/Stochastic_Dynamic_Models.mlx)
          *   Homework 2  
 <br>
 <br>
