@@ -77,6 +77,10 @@ This is a read/execute only environment, you will not be able to edit and save w
          *   Dynamic Programming vs. Optimal Control [(.mlx)](Optim_Class_Fall2019/Dynamic_Programming_vs_Optimal_Control.mlx)  
          *   Model Function File for Optimal Growth Model 2 [(.m)](Optim_Class_Fall2019/mfsc01.m)  
 <br>
+
+* Introduction to Machine Learning, Python and Jupyter Notebooks
+    *  Week 6 & 7: Installing Python
+         *   https://www.anaconda.com/distribution/
 <br>
 <br>
 <br>
