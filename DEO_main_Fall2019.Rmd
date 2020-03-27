@@ -35,7 +35,7 @@ This is a read/execute only environment, you will not be able to edit and save w
 
 ### Course Outline
 
-* Syllabus [(.pdf)](pdf/Syllabus _AAEC6305_Fall2019.pdf)  
+* Syllabus [(.pdf)](Optim_Class_Fall2019/Syllabus _AAEC6305_Fall2019.pdf)  
 
 * Introduction 
 <br>
