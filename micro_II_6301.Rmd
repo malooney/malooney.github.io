@@ -12,13 +12,13 @@ output: html_document
   <br>
   <br>
 
-*  Meat Demand Argentina  [(.xls)](Meat Demand Argentina.xls)  
+*  Meat Demand Argentina  [(.xls)](micro_II_Fall2019/Meat Demand Argentina.xls)  
 
-*  WARP Code Template  [(.zip)](WARP_Project.zip)  
+*  WARP Code Template  [(.zip)](micro_II_Fall2019/WARP_Project.zip)  
   
-*  WARP Code MATLAB Template  [(.zip)](WARP_code_MATLAB.zip)  
+*  WARP Code MATLAB Template  [(.zip)](micro_II_Fall2019/WARP_code_MATLAB.zip)  
 
-*  Revealed preference theory: An algorithmic outlook  [(.pdf)](EJOR2018paper.pdf)  
+*  Revealed preference theory: An algorithmic outlook  [(.pdf)](micro_II_Fall2019/Smeulders, Crama, Spieksma_2019_Revealed preference theory An algorithmic outlook.pdf)  
   
   <br>
   <br>
