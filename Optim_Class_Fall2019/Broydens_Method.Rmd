@@ -1,4 +1,5 @@
 ---
+pagetitle: "Broyden's Method"
 output: html_document
 ---
 <br>
