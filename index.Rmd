@@ -17,7 +17,7 @@ output: html_document
 
 ### **About Me**
 
-![](images/MLPic_1.png)
+![](images/ALL.jpg)
 </div>
 
 <div class="col-sm-5" align="left">
