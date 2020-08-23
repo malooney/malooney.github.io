@@ -14,8 +14,8 @@ navbar:
       
     - text: "Teaching"
       menu:
-        - text: "Dynamic Economic Optimization Fall 2019"
-          href: DEO_index_Fall2019.html
+        - text: "Dynamic Economic Optimization Fall 2020"
+          href: DEO_index_Fall2020.html
         - text: "AECO 4309"
           href: AECO4309.html
         - text: "Microeconomics II - 6301"
