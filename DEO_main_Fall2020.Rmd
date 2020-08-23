@@ -1,0 +1,106 @@
+---
+pagetitle: "DEO_main_Fall2020"
+output: html_document
+---
+<br>
+<br>
+
+<center>
+# **AAEC 6305: Dynamic Economic Optimization** - Fall 2020  
+</center>
+
+<br>
+
+### Course Objective
+
+The purpose of the course is to study the applications of optimization models in agricultural and natural resource economics. Our focus is to develop the ability to formulate economizing problems mathematically, and learn computer algorithms to solve various types of optimization problems in agricultural production and natural resource management. Students will learn computer algorithms solving linear and nonlinear programming models, deterministic and stochastic dynamic models, and machine learning models.
+
+### Course Text
+
+The primary text used in this class is:
+
+Miranda, M. J., & Fackler, P. L. (2002). Applied Computational Economics and Finance (P. L. Fackler, ed.). Cambridge, Mass. : MIT Press.
+  
+### General Information
+
+Examples will be presented in class using either Matlab or Python. MATLAB examples will be coded using MATLAB's Live Code File Format (.mlx). We will talk more about how to install and use MATLAB in the first week of class. Python examples will be coded in a [Jupyter Noteboook](https://jupyter.org/). We will talk more about how to install Python and use Jupyter Notebooks in the second half of the class. If you plan to use Python and machine learning for your Term Project then get with me sooner so we can get Python installed and you can start on your project before week seven. A small amount of R syntax will be introduced in the first week but the second half of this course will focus on Machine Learning techniques. Python has become the de-facto language for Machine Learning, at least at this point in time, and as such we will not work with R much beyond a simple introduction. That said, R is a powerful and highly developed statistical programming language that we encourage you to become comfortable with.
+
+A web based executable environment called *binder* will be used to demonstrate examples coded in Python. You can launch this environment by clicking on the following icon:  
+  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/malooney/Dynamic_Economic_Optimization_Fall2019/master?urlpath=lab)
+
+This is a read/execute only environment, you will not be able to edit and save within this environment. If you wish to download the code examples you can click on the links below and run them in your local environment on your laptop. In fact there will be times you will need to edit the code in the examples and submit your work as part of a homework or exam. Don't worry if this does not make sense at this time, we will talk more about it soon.
+
+<br>
+
+### Course Outline
+
+* Syllabus [(.pdf)](Optim_Class_Fall2019/Syllabus _AAEC6305_Fall2020.pdf)  
+
+* Introduction 
+<br>
+   *  Week 1: Overview of optimization models and MATLAB  
+      * MATLAB and CompEcon Toolbox installation instructions 
+      [(.pdf)](Optim_Class_Fall2019/softwareInstall/install_MATLAB_COMPECON.pdf)
+      * Syntax Cross-Refernece Sheet
+      [(.pdf)](Optim_Class_Fall2019/xRef/xRef_Matlab_Python_R.pdf)  
+      * Getting Started With Matlab, Part1
+      [(.mlx)](Optim_Class_Fall2019/GettingStartedWithMatlab_Part1.mlx)
+      * dataMatrix_10000 [(.csv)](Optim_Class_Fall2019/dataMatrix_10000.csv)
+      * ols [(.m)](Optim_Class_Fall2019/ols.m)
+      * Homework_1a [(.mlx)](Optim_Class_Fall2019/Homework_1a.mlx)  
+<br>
+* Static Optimization Models for LP and NLP Problems
+<br>
+   *  Week 2: Linear and nonlinear static models 
+      * Getting Started With Matlab, Part2
+      <!-- [(.mlx)](Optim_Class_Fall2019/GettingStartedWithMatlab_Part2.mlx) -->
+      * objective_Fn_1 <!--[(.m)](Optim_Class_Fall2019/objective_Fn_1.m) -->
+      * Linear Static Models <!-- [(.mlx)](Optim_Class_Fall2019/LinearStaticModels.mlx) -->
+      * giap <!-- [(.m)](Optim_Class_Fall2019/giap.m) -->
+      * nonLinear Static Models
+      <!--[(.mlx)](Optim_Class_Fall2019/nonLinearStaticModels.mlx)-->
+      *  Homework_1b <!--[(.mlx)](Optim_Class_Fall2019/Homework_1b.mlx)  -->
+<br>
+* Deterministic Dynamic Models  
+   *  Week 3: Nonrenewable resource extraction (Mine management) and Livestock feeding model
+      *  Deterministic Dynamic Models
+      <!--[(.mlx)](Optim_Class_Fall2019/Deterministic_Dynamic_Models.mlx)  -->
+      *   Mine Management Extension <!--[(.m)](Optim_Class_Fall2019/mineExt.m)  -->
+<br>
+* Stochastic Dynamic Models  
+    *  Week 4: Water management
+         *   Stochastic Dynamic Models
+         <!--[(.mlx)](Optim_Class_Fall2019/Stochastic_Dynamic_Models.mlx)-->
+         *   Stochastic Dynamic Models Extension
+         <!--[(.mlx)](Optim_Class_Fall2019/Stochastic_Dynamic_Models_CD.mlx)-->
+         *   Homework 2 <!--[(.mlx)](Optim_Class_Fall2019/Homework_2.mlx)  -->
+         *   Homework 2 function <!--[(.m)](Optim_Class_Fall2019/HW2_function.m)  -->
+<br>
+* Continuous Time Dynamic Models  
+    *  Week 5: Nonrenewable Resource Management & The Neoclassical Growth Model
+         *   Continuous Time_Dynamic Models
+         <!--[(.mlx)](Optim_Class_Fall2019/Continuous_Time_Dynamic_Models.mlx) --> 
+         *   Model Function File for Optimal Growth Model
+         <!--[(.m)](Optim_Class_Fall2019/mfsc01.m)  -->
+         *   Mine Management 2 <!--[(.m)](Optim_Class_Fall2019/mining2.m)  -->
+         *   Mine Management 2 Extension <!--[(.m)](Optim_Class_Fall2019/mining2_cd.m) -->
+         *   Dynamic Programming vs. Optimal Control
+         <!--[(.mlx)](Optim_Class_Fall2019/Dynamic_Programming_vs_Optimal_Control.mlx)-->  
+         *   Model Function File for Optimal Growth Model 2
+         <!--[(.m)](Optim_Class_Fall2019/mfsc01.m)  -->
+<br>
+
+* Introduction to Machine Learning, Python and Jupyter Notebooks
+    *  Week 6 & 7: Installing Python
+         *   https://www.anaconda.com/distribution/
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
