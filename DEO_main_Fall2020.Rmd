@@ -35,60 +35,60 @@ This is a read/execute only environment, you will not be able to edit and save w
 
 ### Course Outline
 
-* Syllabus [(.pdf)](Optim_Class_Fall2019/Syllabus _AAEC6305_Fall2020.pdf)  
+* Syllabus [(.pdf)](Optim_Class_Fall2020/Syllabus _AAEC6305_Fall2020.pdf)  
 
 * Introduction 
 <br>
    *  Week 1: Overview of optimization models and MATLAB  
       * MATLAB and CompEcon Toolbox installation instructions 
-      [(.pdf)](Optim_Class_Fall2019/softwareInstall/install_MATLAB_COMPECON.pdf)
+      [(.pdf)](Optim_Class_Fall2020/softwareInstall/install_MATLAB_COMPECON.pdf)
       * Syntax Cross-Refernece Sheet
-      [(.pdf)](Optim_Class_Fall2019/xRef/xRef_Matlab_Python_R.pdf)  
+      [(.pdf)](Optim_Class_Fall2020/xRef/xRef_Matlab_Python_R.pdf)  
       * Getting Started With Matlab, Part1
-      [(.mlx)](Optim_Class_Fall2019/GettingStartedWithMatlab_Part1.mlx)
-      * dataMatrix_10000 [(.csv)](Optim_Class_Fall2019/dataMatrix_10000.csv)
-      * ols [(.m)](Optim_Class_Fall2019/ols.m)
-      * Homework_1a [(.mlx)](Optim_Class_Fall2019/Homework_1a.mlx)  
+      [(.mlx)](Optim_Class_Fall2020/GettingStartedWithMatlab_Part1.mlx)
+      * dataMatrix_10000 [(.csv)](Optim_Class_Fall2020/dataMatrix_10000.csv)
+      * ols [(.m)](Optim_Class_Fall2020/ols.m)
+      * Homework_1a [(.mlx)](Optim_Class_Fall2020/Homework_1a.mlx)  
 <br>
 * Static Optimization Models for LP and NLP Problems
 <br>
    *  Week 2: Linear and nonlinear static models 
       * Getting Started With Matlab, Part2
-      <!-- [(.mlx)](Optim_Class_Fall2019/GettingStartedWithMatlab_Part2.mlx) -->
-      * objective_Fn_1 <!--[(.m)](Optim_Class_Fall2019/objective_Fn_1.m) -->
-      * Linear Static Models <!-- [(.mlx)](Optim_Class_Fall2019/LinearStaticModels.mlx) -->
-      * giap <!-- [(.m)](Optim_Class_Fall2019/giap.m) -->
+      <!-- [(.mlx)](Optim_Class_Fall2020/GettingStartedWithMatlab_Part2.mlx) -->
+      * objective_Fn_1 <!--[(.m)](Optim_Class_Fall2020/objective_Fn_1.m) -->
+      * Linear Static Models <!-- [(.mlx)](Optim_Class_Fall2020/LinearStaticModels.mlx) -->
+      * giap <!-- [(.m)](Optim_Class_Fall2020/giap.m) -->
       * nonLinear Static Models
-      <!--[(.mlx)](Optim_Class_Fall2019/nonLinearStaticModels.mlx)-->
-      *  Homework_1b <!--[(.mlx)](Optim_Class_Fall2019/Homework_1b.mlx)  -->
+      <!--[(.mlx)](Optim_Class_Fall2020/nonLinearStaticModels.mlx)-->
+      *  Homework_1b <!--[(.mlx)](Optim_Class_Fall2020/Homework_1b.mlx)  -->
 <br>
 * Deterministic Dynamic Models  
    *  Week 3: Nonrenewable resource extraction (Mine management) and Livestock feeding model
       *  Deterministic Dynamic Models
-      <!--[(.mlx)](Optim_Class_Fall2019/Deterministic_Dynamic_Models.mlx)  -->
-      *   Mine Management Extension <!--[(.m)](Optim_Class_Fall2019/mineExt.m)  -->
+      <!--[(.mlx)](Optim_Class_Fall2020/Deterministic_Dynamic_Models.mlx)  -->
+      *   Mine Management Extension <!--[(.m)](Optim_Class_Fall2020/mineExt.m)  -->
 <br>
 * Stochastic Dynamic Models  
     *  Week 4: Water management
          *   Stochastic Dynamic Models
-         <!--[(.mlx)](Optim_Class_Fall2019/Stochastic_Dynamic_Models.mlx)-->
+         <!--[(.mlx)](Optim_Class_Fall2020/Stochastic_Dynamic_Models.mlx)-->
          *   Stochastic Dynamic Models Extension
-         <!--[(.mlx)](Optim_Class_Fall2019/Stochastic_Dynamic_Models_CD.mlx)-->
-         *   Homework 2 <!--[(.mlx)](Optim_Class_Fall2019/Homework_2.mlx)  -->
-         *   Homework 2 function <!--[(.m)](Optim_Class_Fall2019/HW2_function.m)  -->
+         <!--[(.mlx)](Optim_Class_Fall2020/Stochastic_Dynamic_Models_CD.mlx)-->
+         *   Homework 2 <!--[(.mlx)](Optim_Class_Fall2020/Homework_2.mlx)  -->
+         *   Homework 2 function <!--[(.m)](Optim_Class_Fall2020/HW2_function.m)  -->
 <br>
 * Continuous Time Dynamic Models  
     *  Week 5: Nonrenewable Resource Management & The Neoclassical Growth Model
          *   Continuous Time_Dynamic Models
-         <!--[(.mlx)](Optim_Class_Fall2019/Continuous_Time_Dynamic_Models.mlx) --> 
+         <!--[(.mlx)](Optim_Class_Fall2020/Continuous_Time_Dynamic_Models.mlx) --> 
          *   Model Function File for Optimal Growth Model
-         <!--[(.m)](Optim_Class_Fall2019/mfsc01.m)  -->
-         *   Mine Management 2 <!--[(.m)](Optim_Class_Fall2019/mining2.m)  -->
-         *   Mine Management 2 Extension <!--[(.m)](Optim_Class_Fall2019/mining2_cd.m) -->
+         <!--[(.m)](Optim_Class_Fall2020/mfsc01.m)  -->
+         *   Mine Management 2 <!--[(.m)](Optim_Class_Fall2020/mining2.m)  -->
+         *   Mine Management 2 Extension <!--[(.m)](Optim_Class_Fall2020/mining2_cd.m) -->
          *   Dynamic Programming vs. Optimal Control
-         <!--[(.mlx)](Optim_Class_Fall2019/Dynamic_Programming_vs_Optimal_Control.mlx)-->  
+         <!--[(.mlx)](Optim_Class_Fall2020/Dynamic_Programming_vs_Optimal_Control.mlx)-->  
          *   Model Function File for Optimal Growth Model 2
-         <!--[(.m)](Optim_Class_Fall2019/mfsc01.m)  -->
+         <!--[(.m)](Optim_Class_Fall2020/mfsc01.m)  -->
 <br>
 
 * Introduction to Machine Learning, Python and Jupyter Notebooks
