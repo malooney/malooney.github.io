@@ -48,7 +48,7 @@ This is a read/execute only environment, you will not be able to edit and save w
       [(.mlx)](Optim_Class_Fall2020/GettingStartedWithMatlab_Part1.mlx)
       * dataMatrix_10000 [(.csv)](Optim_Class_Fall2020/dataMatrix_10000.csv)
       * ols [(.m)](Optim_Class_Fall2020/ols.m)
-      * Homework_1a <!--[(.mlx)](Optim_Class_Fall2020/Homework_1a.mlx)  -->
+      * Homework_1a [(.mlx)](Optim_Class_Fall2020/Homework_1a.mlx)
 <br>
 * Static Optimization Models for LP and NLP Problems
 <br>
