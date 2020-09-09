@@ -59,7 +59,7 @@ This is a read/execute only environment, you will not be able to edit and save w
       * Linear Static Models [(.mlx)](Optim_Class_Fall2020/LinearStaticModels.mlx)
       * giap [(.m)](Optim_Class_Fall2020/giap.m)
       * nonLinear Static Models
-      <!--[(.mlx)](Optim_Class_Fall2020/nonLinearStaticModels.mlx)-->
+      [(.mlx)](Optim_Class_Fall2020/nonLinearStaticModels.mlx)
       *  Homework_1b [(.mlx)](Optim_Class_Fall2020/Homework_1b.mlx)  
 <br>
 * Deterministic Dynamic Models  

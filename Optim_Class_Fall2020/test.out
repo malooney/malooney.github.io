@@ -1,0 +1,328 @@
+
+randn('seed',155)                                   % reset normal random number generator
+rand('seed',155)                                    % reset uniform random number generator
+nn = 100;                                           % # draws to simulate shares
+oo = ones(1,nn);                                    % for use in simulation of shares
+
+costparams = ones(6,1)/2;
+betatrue = [.1 1.5 1.5 .5 -3]';                     % true mean tastes
+K = size(betatrue,1)-1;                             % # attributes
+covrc = diag( [ .5 .5 .5 .5 .2] );                  % true co-variances in tastes
+rctrue = covrc(find(covrc));
+thetatrue = [betatrue;rctrue];
+v = randn(length(betatrue),nn);                     % draws for share integrals during estimation
+rc = chol(covrc)'*v;                                % draws for share integrals for data creation
+sigmaxi=1;
+covX = -.8*ones(K-1)+1.8*eye(K-1);                  % allow for correlation in X's
+covX(1,3) = .3;
+covX(2,3) = .3;
+covX(3,1) = .3;
+covX(3,2) = .3;
+
+report =100;
+covX = -.8*ones(K-1)+1.8*eye(K-1);
+covX = -.8*ones(K-1)+1.8*eye(K-1);                  % allow for correlation in X's
+covX(1,3) = .3;
+covX(2,3) = .3;
+covX(3,1) = .3;
+covX(3,2) = .3;
+randn('seed',155)                                   % reset normal random number generator
+rand('seed',155)                                    % reset uniform random number generator
+nn = 100;                                           % # draws to simulate shares
+oo = ones(1,nn);                                    % for use in simulation of shares
+
+costparams = ones(6,1)/2;
+betatrue = [.1 1.5 1.5 .5 -3]';                     % true mean tastes
+K = size(betatrue,1)-1;                             % # attributes
+covrc = diag( [ .5 .5 .5 .5 .2] );                  % true co-variances in tastes
+rctrue = covrc(find(covrc));
+thetatrue = [betatrue;rctrue];
+v = randn(length(betatrue),nn);                     % draws for share integrals during estimation
+rc = chol(covrc)'*v;                                % draws for share integrals for data creation
+sigmaxi=1;
+covX = -.8*ones(K-1)+1.8*eye(K-1);                  % allow for correlation in X's
+covX(1,3) = .3;
+covX(2,3) = .3;
+covX(3,1) = .3;
+covX(3,2) = .3;
+
+
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+{Unrecognized function or variable 'T'.
+} 
+randn('seed',155)                                   % reset normal random number generator
+rand('seed',155)                                    % reset uniform random number generator
+nn = 100;                                           % # draws to simulate shares
+oo = ones(1,nn);                                    % for use in simulation of shares
+
+costparams = ones(6,1)/2;
+betatrue = [.1 1.5 1.5 .5 -3]';                     % true mean tastes
+K = size(betatrue,1)-1;                             % # attributes
+covrc = diag( [ .5 .5 .5 .5 .2] );                  % true co-variances in tastes
+rctrue = covrc(find(covrc));
+thetatrue = [betatrue;rctrue];
+v = randn(length(betatrue),nn);                     % draws for share integrals during estimation
+rc = chol(covrc)'*v;                                % draws for share integrals for data creation
+sigmaxi=1;
+covX = -.8*ones(K-1)+1.8*eye(K-1);                  % allow for correlation in X's
+covX(1,3) = .3;
+covX(2,3) = .3;
+covX(3,1) = .3;
+covX(3,2) = .3;
+clc
+clear
+randn('seed',155)                                   % reset normal random number generator
+rand('seed',155)                                    % reset uniform random number generator
+nn = 100;                                           % # draws to simulate shares
+oo = ones(1,nn);                                    % for use in simulation of shares
+
+costparams = ones(6,1)/2;
+betatrue = [.1 1.5 1.5 .5 -3]';                     % true mean tastes
+K = size(betatrue,1)-1;                             % # attributes
+covrc = diag( [ .5 .5 .5 .5 .2] );                  % true co-variances in tastes
+rctrue = covrc(find(covrc));
+thetatrue = [betatrue;rctrue];
+v = randn(length(betatrue),nn);                     % draws for share integrals during estimation
+rc = chol(covrc)'*v;                                % draws for share integrals for data creation
+sigmaxi=1;
+covX = -.8*ones(K-1)+1.8*eye(K-1);                  % allow for correlation in X's
+covX(1,3) = .3;
+covX(2,3) = .3;
+covX(3,1) = .3;
+covX(3,2) = .3;
+betatrue = [-1 1.5 1.5 .5 -3]';                     % re-set true mean tastes
+
+prods = 25;
+T = 50;
+weak = 4;                                           % weakness of the instruments
+sims = 1;                                           % # replications per experiment
+BLP=1;
+MPEC=1;
+elasdo=1;
+outputtable = [];
+rand('seed',50000);                                 % re-set uniform random number generator
+reps = 100;
+theta0 = rand(K+1,reps)*7;
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{Unrecognized function or variable 'mksharesim'.
+} 
+%%% Create indices to speed share calculations
+oo1 = (0:T-1)*prods+prods;                          % indicates last observation for each market
+sharesum = kron( ones(1,prods),speye(T));           % used to create denominators in shares (sums numerators)
+datasort = sortrows( [(1:T*prods)' kron( (1:prods)',ones(T,1)) repmat((1:T)',prods,1)] , [3 2]);
+datasort = datasort(:,1);
+denomexpand = repmat( (1:T)',prods,1);
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{Unrecognized function or variable 'mksharesim'.
+} 
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{Unrecognized function or variable 'mksharesim'.
+} 
+function [share,nopurch] = mksharesim(betatrue,M,T,x,xi,oo,oo1,rc)
+ function [share,nopurch] = mksharesim(betatrue,M,T,x,xi,oo,oo1,rc)
+ ↑
+{Error: Function definition not supported in this context. Create functions in code file.
+} 
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{Unrecognized function or variable 'mksharesim'.
+} 
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{Unrecognized function or variable 'mksharesim'.
+} 
+mksharesim
+{Unrecognized function or variable 'mksharesim'.
+} 
+clc;clear;
+randn('seed',155)                                   % reset normal random number generator
+rand('seed',155)                                    % reset uniform random number generator
+nn = 100;                                           % # draws to simulate shares
+oo = ones(1,nn);                                    % for use in simulation of shares
+
+costparams = ones(6,1)/2;
+betatrue = [.1 1.5 1.5 .5 -3]';                     % true mean tastes
+K = size(betatrue,1)-1;                             % # attributes
+covrc = diag( [ .5 .5 .5 .5 .2] );                  % true co-variances in tastes
+rctrue = covrc(find(covrc));
+thetatrue = [betatrue;rctrue];
+v = randn(length(betatrue),nn);                     % draws for share integrals during estimation
+rc = chol(covrc)'*v;                                % draws for share integrals for data creation
+sigmaxi=1;
+covX = -.8*ones(K-1)+1.8*eye(K-1);                  % allow for correlation in X's
+covX(1,3) = .3;
+covX(2,3) = .3;
+covX(3,1) = .3;
+covX(3,2) = .3;
+betatrue = [-1 1.5 1.5 .5 -3]';                     % re-set true mean tastes
+
+prods = 25;
+T = 50;
+weak = 4;                                           % weakness of the instruments
+sims = 1;                                           % # replications per experiment
+BLP=1;
+MPEC=1;
+elasdo=1;
+outputtable = [];
+rand('seed',50000);                                 % re-set uniform random number generator
+reps = 100;
+theta0 = rand(K+1,reps)*7;
+%%% Create indices to speed share calculations
+oo1 = (0:T-1)*prods+prods;                          % indicates last observation for each market
+sharesum = kron( ones(1,prods),speye(T));           % used to create denominators in shares (sums numerators)
+datasort = sortrows( [(1:T*prods)' kron( (1:prods)',ones(T,1)) repmat((1:T)',prods,1)] , [3 2]);
+datasort = datasort(:,1);
+denomexpand = repmat( (1:T)',prods,1);
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{'mksharesim' is not found in the current folder or on the MATLAB path, but exists in:
+    /Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')">Change the MATLAB current folder</a> or <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')">add its folder to the MATLAB path</a>.
+} 
+matlab.internal.language.commandline.executeCode('addpath ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')
+addpath '/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1'
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{'mksharesim' is not found in the current folder or on the MATLAB path, but exists in:
+    /Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')">Change the MATLAB current folder</a> or <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')">add its folder to the MATLAB path</a>.
+} 
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{Unrecognized function or variable 'mksharesim'.
+} 
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{'mksharesim' is not found in the current folder or on the MATLAB path, but exists in:
+    /Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')">Change the MATLAB current folder</a> or <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')">add its folder to the MATLAB path</a>.
+} 
+clc;clear;
+  
+
+randn('seed',155)                                   % reset normal random number generator
+rand('seed',155)                                    % reset uniform random number generator
+nn = 100;                                           % # draws to simulate shares
+oo = ones(1,nn);                                    % for use in simulation of shares
+
+costparams = ones(6,1)/2;
+betatrue = [.1 1.5 1.5 .5 -3]';                     % true mean tastes
+K = size(betatrue,1)-1;                             % # attributes
+covrc = diag( [ .5 .5 .5 .5 .2] );                  % true co-variances in tastes
+rctrue = covrc(find(covrc));
+thetatrue = [betatrue;rctrue];
+v = randn(length(betatrue),nn);                     % draws for share integrals during estimation
+rc = chol(covrc)'*v;                                % draws for share integrals for data creation
+sigmaxi=1;
+covX = -.8*ones(K-1)+1.8*eye(K-1);                  % allow for correlation in X's
+covX(1,3) = .3;
+covX(2,3) = .3;
+covX(3,1) = .3;
+covX(3,2) = .3;
+
+
+
+betatrue = [-1 1.5 1.5 .5 -3]';                     % re-set true mean tastes
+
+prods = 25;
+T = 50;
+weak = 4;                                           % weakness of the instruments
+sims = 1;                                           % # replications per experiment
+BLP=1;
+MPEC=1;
+elasdo=1;
+outputtable = [];
+rand('seed',50000);                                 % re-set uniform random number generator
+reps = 100;
+theta0 = rand(K+1,reps)*7;
+
+
+
+%%% Create indices to speed share calculations
+oo1 = (0:T-1)*prods+prods;                          % indicates last observation for each market
+sharesum = kron( ones(1,prods),speye(T));           % used to create denominators in shares (sums numerators)
+datasort = sortrows( [(1:T*prods)' kron( (1:prods)',ones(T,1)) repmat((1:T)',prods,1)] , [3 2]);
+datasort = datasort(:,1);
+denomexpand = repmat( (1:T)',prods,1);
+
+
+% CREATE SIMULATED DATA %
+    xi = randn( T*prods,1)*sigmaxi;                     % draw demand shocks
+    A = [kron(randn( prods,K-1)*chol(covX),ones(T,1))]; %product attributes
+    price = abs(xi/2 +  randn( T*prods,1) )+ abs(sum(A,2))*1.1;
+    z = rand( T*prods,length(costparams)) + 1/weak*repmat(price,1,length(costparams));
+    x = [ones(T*prods,1) A price];
+    [share,nopurch] = mksharesim(betatrue,inf,T,x,xi,[],[],rc);
+{'mksharesim' is not found in the current folder or on the MATLAB path, but exists in:
+    /Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')">Change the MATLAB current folder</a> or <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')">add its folder to the MATLAB path</a>.
+} 
+matlab.internal.language.commandline.executeCode('cd ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')
+cd '/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1'
+matlab.internal.language.commandline.executeCode('addpath ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1''')
+addpath '/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation/Table 1'
+simData_DFS
+{'simData_DFS' is not found in the current folder or on the MATLAB path, but exists in:
+    /Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation''')">Change the MATLAB current folder</a> or <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''/Users/malooney/Google Drive/digitalLibrary/*beerProject/PhD_Research/Output_Data/RCLogit_simulation''')">add its folder to the MATLAB path</a>.
+} 
