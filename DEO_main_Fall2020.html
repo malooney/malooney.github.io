@@ -20,11 +20,22 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -381,8 +392,8 @@ $(document).ready(function () {
 <ul>
 <li>Week 3: Nonrenewable resource extraction (Mine management) and Livestock feeding model
 <ul>
-<li>Deterministic Dynamic Models <!--[(.mlx)](Optim_Class_Fall2020/Deterministic_Dynamic_Models.mlx)  --></li>
-<li>Mine Management Extension <!--[(.m)](Optim_Class_Fall2020/mineExt.m)  --> <br></li>
+<li>Deterministic Dynamic Models <a href="Optim_Class_Fall2020/Deterministic_Dynamic_Models.mlx">(.mlx)</a></li>
+<li>Mine Management Extension <a href="Optim_Class_Fall2020/mineExt.m">(.m)</a> <br></li>
 </ul></li>
 </ul></li>
 <li><p>Stochastic Dynamic Models</p>
@@ -444,7 +455,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
